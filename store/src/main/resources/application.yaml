@@ -1,0 +1,11 @@
+spring:
+  flyway:
+    enabled: false
+  application:
+    name: store
+  datasource:
+    url: jdbc:mysql://localhost:3306/store
+    username: root
+    password: Mysql@123
+  jpa:
+    show-sql: true
